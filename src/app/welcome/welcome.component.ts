@@ -1,6 +1,3 @@
-
-
-
 import { Component, OnInit} from '@angular/core';
 import {LoginserviceService} from '../loginservice.service';
 import { Subscription } from 'rxjs';
