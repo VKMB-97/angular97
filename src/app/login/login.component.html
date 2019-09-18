@@ -6,9 +6,14 @@
 <body>
   <table>
     <tr><td>Name:</td>
-    <td><input type="text" name="name" id="loginname"/></td>
+    <td><input type="text" #logvalue /></td>
     </tr>
   </table>
-<p><a routerLink="/welcome" routerLinkActive="active"><input type="submit" name="log" value="Login" (click)="gotowelcome('/product')"/></a></p>
+<p><a routerLink="/welcome" routerLinkActive="active"><input type="submit" name="log" value="Login" (click)="getName(logvalue.value)"/></a></p>
 </body>
 </html>
+
+
+
+
+

@@ -1,17 +1,20 @@
 import { Injectable } from '@angular/core';
-import { Observable, Subject } from 'rxjs';
-import {name} from './login/login.component'
+import { BehaviorSubject } from 'rxjs';
+import { Observable } from 'rxjs';
+
 
 @Injectable()
 export class LoginserviceService {
-private subject = new Subject<any>();
+
+  private messagename = new BehaviorSubject<string>('default message');
+  currentname = this.messagename.asObservable();
+
   constructor() { }
-  sendName(name:string)
+
+  getname()
   {
-    this.subject.next({ text :name });
+    return this.messagename.asObservable();
   }
-  getMessage(): Observable<any> {
-        return this.subject.asObservable();
-    }
+  
 
 }
