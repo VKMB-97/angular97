@@ -10,12 +10,11 @@ import { LoginserviceService } from './loginservice.service';
 import {WelcomeComponent } from './welcome/welcome.component';
 
 
-
 const appRoutes: Routes = [
   { path: 'login', component:LoginComponent  },
   {path:'home',component:HomeComponent},
    {path:'logout',component:LogoutComponent},
-   {path:'welcome/:',component:WelcomeComponent},
+   {path:'welcome',component:WelcomeComponent},
 ]
 
 @NgModule({

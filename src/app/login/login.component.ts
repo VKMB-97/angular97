@@ -20,6 +20,7 @@ subscription: Subscription;
     this.loginservice.updatename(this.name);
   }
   ngOnInit() {
+  
   }
 
 }
