@@ -12,35 +12,21 @@ header
 nav
 {
   background-color: greenyellow;
-  height:15.25cm;
+  height:auto;
+  width:100%;
   padding:12px;
-
+  text-align:right;
 
 }
 nav a
 {
-  font-size:22px;
+  font-size:12px;
   font-family: 'Times New Roman', Times, serif;
-  text-align:center;
-  align-items: center;
-  color:ghostwhite;
+  color:red;
 }
 nav a:hover
 {
   color:blue;
-}
-section
-{
-float: left;
-  margin: 0 auto;
-  width:10%;
- 
-}
-aside{
-  float: left;
-  margin: 0 auto;
-  width: 90%;
-   
 }
 footer
 {
@@ -49,52 +35,4 @@ footer
   background-color:gold;
   width: 100%;
   text-align: center;
-}header
-{
-   background-color: blue;
-    width:100%;
-    height:100%;  
-    color:white;
-  font-size:36px;
-  font-family: 'Times New Roman', Times, serif;
-  display:inline-block;
-}
-nav
-{
-  background-color: greenyellow;
-  height:16cm;
-  padding:12px;
-
-
-}
-nav a
-{
-  font-size:22px;
-  font-family: 'Times New Roman', Times, serif;
-  text-align:center;
-  align-items: center;
-  color:ghostwhite;
-}
-nav a:hover
-{
-  color:blue;
-}
-section
-{
-float: left;
-  margin: 0 auto;
-  width:10%;
- 
-}
-aside{
-  float: left;
-  margin: 0 auto;
-  width: 90%; 
-}
-footer
-{
-  position:absolute;
-  bottom:0;
-  background-color:gold;
-  width: 100%;
 }
